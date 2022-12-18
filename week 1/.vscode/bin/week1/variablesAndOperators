@@ -1,0 +1,49 @@
+import 'dart:io';
+
+void main() {
+  // print("Please Enter your Name");
+  // String? input = stdin.readLineSync();
+  // print("your name is $input");
+
+  // int? value1;
+  // String? name;
+
+  // value1 = null;
+  // name = null;
+
+  // print(value1);
+  // print(name);
+  // //print(value2.runtimeType);
+  // int age = 25;
+  // String name = "Ali";
+
+  // // His name is Ali Ahmed and his age is 25
+  // print("His name is $name and his age is $age");
+
+  String name = "Ali";
+  String name1 = "Noshad";
+  String name2 = "imran";
+  String name3 = "Sheriyar";
+
+  List names = ["Ali", "Noshad", "Imran", "Sheriyar"];
+  List Person1 = ["Babar", 25, 30.3, true];
+  names.add("Hasnain");
+  names.add("Shoaib");
+
+  List myBio = [];
+  myBio.add("Noor");
+  myBio.add(20);
+  myBio.add(false);
+  myBio.add(30.4);
+  myBio[2] = true;
+  print(myBio[2]);
+  myBio[3] += 10;
+
+  print("length of List ${myBio.length}");
+
+  String name6 = "Sheriyar";
+  print(name6[2]);
+  print("Length of Name is ${name6.length}");
+
+  
+}
